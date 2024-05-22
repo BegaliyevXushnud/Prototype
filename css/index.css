@@ -1,0 +1,362 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Lato";
+    src: url(../Fontlar/Ibarra_Real_Nova\,Lato\,Libre_Franklin\,Nunito_Sans\,Source_Serif_4\,etc/Lato);
+}
+body{
+    background-color: #192430;
+}
+.container{
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+align-items: center;
+}
+ header nav ul li a{
+    color: inherit;
+}
+header{
+   padding: 15px 0px;
+   box-shadow: 0px 0px 10px gray;
+   position: fixed;
+top: 0;
+   left: 0;
+   width: 100%;
+   background: white;
+   background: transparent;
+   position: fixed;
+}
+.header_right{
+    width: 1250px;
+    height: 30px;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+  
+}
+.header_right ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.header_right ul li{
+    font-family: Lato;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+text-align: left;
+color: #FFFFFF;
+}
+header nav{
+  width: 1300px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .header_right ul li a{
+    position: relative;
+    font-family: Lato;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+text-align: left;
+text-decoration: none;
+padding: 0 10px;
+color: #a0a0a0;
+}
+header nav .header_right ul li a::after{
+  content: "";
+  position: absolute;
+  background-color: aqua;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: all 0.3s linear;
+}
+.header_right ul li a:hover{
+   color: #FFFFFF;
+ }
+ .header_right ul li a:hover::after{
+   width: 100%;
+}
+ .header_right  > .langue{
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.langue button{
+    width: Fixed (100px)px;
+    height: Fixed (40px)px;
+    top: 14px;
+    left: 1310px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 6px ;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    background: none;
+    font-family: Lato;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+text-align: left;
+color: #FFFFFF;
+cursor: pointer;
+border: 1px solid orange;
+}
+.langue button:hover{
+    border: 1px solid #46DBBF;
+    color: #46DBBF;
+}
+main{
+    width: 1550px;
+height: 1300px;
+top: 194px;
+left: 255px;
+gap: 0px;
+opacity: 0px;
+margin: 0 auto;
+margin: 4cm;
+}
+.section-first{
+    width: 1550px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+margin-top: 1cm;
+}
+.type{
+    margin-left: 0.7cm;
+    cursor: pointer;
+}
+.section-first  .bus{
+width: 330px;
+height: 200px;
+background-color: #2A3C4E;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+border-radius: 24px;
+transition: all 0.5s linear;
+margin-top: 1cm;
+}
+.section-first > .bus img{
+    width: 122px;
+height: 65px;
+}
+.section-first > .bus h2{
+    font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 31.2px;
+text-align: center;
+color: #FFFFFF;
+}
+.section-first > .bus button{
+    width: 281px;
+height: 52px;
+top: 465px;
+left: 279px;
+gap: 0px;
+border-radius: 10px ;
+opacity: 0px;
+background-color: #46DBBF;
+font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 31.2px;
+text-align: center;
+border: none;
+display: none;
+transition: all 1s li;
+cursor: pointer;
+}
+.section-first > .bus:hover > button{
+    display: block;
+}
+.section-first > .bus:hover {
+    height: 268px;
+}
+.choose{
+    font-family: Lato;
+font-size: 44px;
+font-weight: 800;
+line-height: 52.8px;
+margin-left: 0.5cm;
+color: #FFFFFF;
+margin-top: 2cm;
+}
+.section-second{
+width: 1550px;
+height: 700px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: start;
+gap: 50px;
+margin-top: 1cm;
+}
+.ben{
+    width: 1550px;
+height: 600px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: start;
+gap: 50px;
+}
+.pages{
+    width:  690px;
+height: 234px;
+top: 719px;
+left: 255px;
+border-radius: 24px;
+background-color: #2A3C4E;
+padding: 30px;
+margin-left: 0.5cm;
+}
+.pages h1{
+    font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+line-height: 31.2px;
+text-align: left;
+color: #46DBBF;
+}
+.pages p{
+    font-family: Lato;
+font-size: 18px;
+font-weight: 500;
+line-height: 23.4px;
+text-align: left;
+color: #FFFFFF;
+}
+.smallpages{
+    height: 180px;
+    margin-top: -2.3cm;
+}
+.bigpages{
+    width: 690px;
+height: 295px;
+}
+.for{
+    font-family: Lato;
+font-size: 44px;
+font-weight: 800;
+line-height: 52.8px;
+text-align: left;
+margin-left: 0.5cm;
+color: #FFFFFF;
+}
+footer{
+    width: 1500px;
+    height: 600px;
+    margin: 0 auto;
+ 
+}
+.head{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.head h1{
+    font-family: Roboto;
+font-size: 38px;
+font-weight: 700;
+line-height: 44.53px;
+text-align: left;
+color: #FFFFFF;
+}
+ .homiy{
+    width: 830px;
+height: 45px;
+top: 70px;
+left: 1776px;
+gap: 20px;
+opacity: 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+}
+.head > .homiy > .ilovalar{
+    width: 150px;
+height: 45px;
+gap: 0px;
+border-radius: 6px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#faces{
+    background-color: #26559A;
+}
+#insta{
+    background-color: #7463B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#insta a{
+    margin-top: 8px;
+}
+.lang{
+    width: 1500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lang ul{
+    list-style: none;
+    font-family: Lato;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+display: flex;
+flex-direction: column;
+gap: 15px;
+color: #FFFFFF;
+}
+.lang ul a{
+   text-decoration: none;
+   color: #FFFFFF;
+}
+.lang ul a:hover{
+  color: #46DBBF;
+    
+ }
+.lang .first{
+    font-family: Lato;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: #5F7897;
+}
+.lang .first:hover{
+    color: white;
+}
+.smooth{
+    width: 600px;
+    height: 80px;
+display: flex;
+justify-content: space-between;
+}
